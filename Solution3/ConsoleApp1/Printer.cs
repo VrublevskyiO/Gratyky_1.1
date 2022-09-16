@@ -2,8 +2,8 @@ namespace ConsoleApp1;
 
 public class Printer
 {
-    void Print(string value)
+    public virtual void Print()
     {
-        
+        Console.WriteLine("Usual type, BASEPrinter");
     }
 }

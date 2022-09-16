@@ -20,5 +20,15 @@ class Program
 
         var group = new ClassRoom(vasya, sasha, lesya);
 
+        vasya.Read();
+        sasha.Study();
+        lesya.Relax();
+        vasya.Study();
+        sasha.Write();
+        lesya.Read();
+        lesya.Read();
+
+        group.ShowClassRoom();
+
     }
 }

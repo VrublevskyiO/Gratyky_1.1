@@ -5,4 +5,19 @@
 // выводились разными цветами.
 // Обязательно используйте приведение типов.
 
-Console.WriteLine("Hello, World!");
+using System;
+using ConsoleApp1;
+
+class Program
+{
+    static void Main()
+    {
+        var text1 = new Printer();
+        text1.Print();
+        
+        var text2 = new SubPrinter();
+        text2.Print();
+        
+        //Don't work with values
+    }
+}
