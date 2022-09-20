@@ -12,7 +12,7 @@ class Program
 {
     static void Main()
     {
-        var bicycle = new Vehicle(2500,37, 2018, 42.8976, 56.3412);
+        var bicycle = new Vehicle(2500,37, 2018,  42.8976, 52.2345678);
         bicycle.ShowData();
 
         var audi = new Car(42000, 270, 219, 42.8976, 56.3412);
