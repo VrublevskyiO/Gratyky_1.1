@@ -13,7 +13,17 @@ namespace ConsoleApp2
         {
             string path =
                 "/Users/vrublevskyi.o/RiderProjects/Gratyky_1.1/Gratyky_1.1/Solution5/ConsoleApp2/content.txt";
-            
+
+
+            Matrix matrixA = new Matrix(); 
+            Matrix matrixB = new Matrix();
+            Matrix matrixC = new Matrix();
+            matrixA.PrintMatrix(matrixA.GetMatrixFromConsole("matrixA"));
+            matrixB.PrintMatrix(matrixB.GetMatrixFromConsole("matrixB"));
+
+            matrixC.Addition(matrixA,matrixB);
+
+       
             
 
             //File.WriteAllText(path, originalText);

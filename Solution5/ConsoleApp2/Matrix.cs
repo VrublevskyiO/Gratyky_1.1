@@ -2,10 +2,10 @@ namespace ConsoleApp2;
 
 public class Matrix
 {
-    public double[,] MatrixA { get; set; }
-    public double[,] MatrixB { get; set; }
-    public double[,] MatrixC { get; set; }
-    
+    //public double[,] MatrixA { get; set; }
+    //public double[,] MatrixB { get; set; }
+    //public double[,] MatrixC { get; set; }
+
     public double[,] GetMatrixFromConsole(string name)
     {
         Console.Write("Rows: {0}: ", name);
@@ -25,7 +25,7 @@ public class Matrix
         return matrix;
     }
     
-    static void PrintMatrix(double[,] matrix)
+    public void PrintMatrix(double[,] matrix)
     {
         for (var i = 0; i < matrix.GetLength(0); i++)
         {
