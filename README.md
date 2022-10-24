@@ -23,3 +23,8 @@
 1.2 In Progress
 1.3 In Progress
 1.4 In Progress
+
+5.Arrays
+1.1 In Progress
+1.2(Task from Lesya) Blocked in class Program
+

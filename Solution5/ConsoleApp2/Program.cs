@@ -15,13 +15,17 @@ namespace ConsoleApp2
                 "/Users/vrublevskyi.o/RiderProjects/Gratyky_1.1/Gratyky_1.1/Solution5/ConsoleApp2/content.txt";
 
 
-            Matrix matrixA = new Matrix(); 
+            Matrix matrixA = new Matrix("hfvidj");
             Matrix matrixB = new Matrix();
             Matrix matrixC = new Matrix();
-            matrixA.PrintMatrix(matrixA.GetMatrixFromConsole("matrixA"));
-            matrixB.PrintMatrix(matrixB.GetMatrixFromConsole("matrixB"));
+            //matrixA.GetMatrixFromConsole("matrixA");
+            //matrixB.GetMatrixFromConsole("matrixB");
+            matrixA.PrintMatrix();
+            matrixB.PrintMatrix();
 
-            matrixC.Addition(matrixA,matrixB);
+            //matrixC.Add(matrixA);
+            
+            matrixC = matrixA.Add(matrixB);
 
        
             
